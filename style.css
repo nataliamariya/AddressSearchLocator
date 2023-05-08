@@ -1,3 +1,6 @@
+/* style.css */
+
+/* styling for navbar */
 .navbar
 {
   padding: auto;
@@ -5,16 +8,19 @@
   margin-bottom: 5px;
 }
 
+/* styling for the page container */
 #page-container {
   position: relative;
   min-height: 100vh;
 }
 
+/* styling for the main content */
 main
 {
   padding-bottom: 2.5rem; 
 }
 
+/* Styling for the map element */
 #map {
     height: 500px;
     width:98%;
@@ -22,6 +28,7 @@ main
     border: 2px;
   }
 
+  /* Styling for input elements */
 input{
     width: 98%;
     padding: 0.5%;
@@ -29,7 +36,8 @@ input{
     margin-bottom: 1px;
     display: grid;
 }
-  
+
+/* Styling for the footer */
 footer {
     padding: 5px;
     position: absolute;
@@ -37,11 +45,13 @@ footer {
     width: 100%;
   }
 
+/* Styling for heading */
   h1{
     font:40;
     padding-left: 15px;
   }
 
+/* Styling for paragraphs  */
   p{
     font-size: medium;
     margin-left: 1%;
@@ -49,6 +59,7 @@ footer {
     color: grey;
   }
 
+  /* Styling for main body of pages that are not done (class "notDone") */
   .notDone
   {
     font-size: 60;

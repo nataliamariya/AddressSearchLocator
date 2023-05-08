@@ -1,12 +1,13 @@
-
-
+<!-- index.html -->
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale="1.0>
+  
   <!-- include bootstrap css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
   <!-- link javascript and css files -->
   <script src="./config.js"></script>
   <script src="script.js"></script>
@@ -20,35 +21,33 @@
 <body>
   <!-- Navigation Bar using Bootstrap-->
 <div id="page-container">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Google Maps Auto Suggest Search</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Google Maps Auto Suggest Search</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="./learned.html">Learned</a></li>
-          <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
-        </ul>
-      </div>
-  </nav>
+  <div class="collapse navbar-collapse" id="navbarMenu">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="./learned.html">Learned</a></li>
+      <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-
-<!-- Autocomplete for search input textbox -->
 <main>
-<h1>
-  Home
-</h1>
+  <h1>
+    Home
+  </h1>
 
-<p>This simple website helps you locate addresses and places on a map.</p>
-<p>Simply type in the address or the name of the place you wish to view, then select from the list of suggestions below!</p>
+  <p>This simple website helps you locate addresses and places on a map.</p>
+  <p>Simply type in the address or the name of the place you wish to view, then select from the list of suggestions below!</p>
 
-<div id="textbox">
-    <input type="text" id="search-input" placeholder="Enter place or address here" >
-</div>
+  <div id="textbox">
+      <input type="text" id="search-input" placeholder="Enter place or address here" >
+  </div>
 
   <div id="map"></div>
 
@@ -59,8 +58,8 @@
   <span class="text-muted">© Google Maps Autocomplete Task/Natalia Bohulevych.</span>
 </footer>
 
+<!-- Append the API key to the Google Maps API script source -->
 <script>
-  // Append the API key to the Google Maps API script source
   var script = document.createElement('script');
   script.src = "https://maps.googleapis.com/maps/api/js?key=" + window.apiKey + "&libraries=places&callback=initMap";
   document.head.appendChild(script);
@@ -68,7 +67,7 @@
 </script>
 
    
-  <!-- include bootstrap and jquery (dropdown nagbar) -->
+  <!-- Include bootstrap and jquery (dropdown nagbar) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
