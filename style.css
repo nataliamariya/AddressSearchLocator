@@ -1,0 +1,63 @@
+.navbar
+{
+  padding: auto;
+  font-size:large;
+  margin-bottom: 5px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+main
+{
+  padding-bottom: 2.5rem; 
+}
+
+#map {
+    height: 500px;
+    width:98%;
+    margin: auto;
+    border: 2px;
+  }
+
+input{
+    width: 98%;
+    padding: 0.5%;
+    margin: auto;
+    margin-bottom: 1px;
+    display: grid;
+}
+  
+footer {
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  h1{
+    font:40;
+    padding-left: 15px;
+  }
+
+  p{
+    font-size: medium;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: grey;
+  }
+
+  .notDone
+  {
+    font-size: 60;
+    margin: 3%;
+    padding: 18% 10% 18% 10%;
+    text-align: center;
+    border: 20px solid #bbdaa4
+  }
+  
+
+
+
