@@ -1,7 +1,5 @@
 # AddressSearchLocator 
 
-# Address Search Website
-
 This project is a responsive website with an address search feature using the Google Places and Google Maps Javascript API.
 
 ## Table of Contents
@@ -13,7 +11,7 @@ This project is a responsive website with an address search feature using the Go
 
 ## Project Description
 
-The Address Search Website allows users to search for addresses or locations using the Google Places API. As users type in the search input field, the website provides autocomplete suggestions based on their input and displays a map of the location. The website is responsive and adjusts its layout to different screen sizes for a better user experience.
+The Address Search Locator allows users to search for addresses or locations using the Google Places API. As users type in the search input field, the website provides autocomplete suggestions based on their input and displays a map of the location. The website is responsive and adjusts its layout to different screen sizes for a better user experience.
 
 ## Installation
 
